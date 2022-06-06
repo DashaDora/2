@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-image: url(../img/back.png);
+    width: 1440px;
+    height: 372px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    width: 754px;
+    height: 63px;
+    position: absolute;
+    color: rgb(4, 4, 168);
+    font-size: 54px;
+    top: 120px;
+    bottom: 189px;
+    left: 145px;
+    right: 541px;
+}
+.container p{
+    position: absolute;
+    width: 899px;
+    height: 24px;
+    left: 148px;
+    top: 210px;
+    font-size: 18px;
+}
+nav{
+    background-color: rgb(3, 3, 180);
+    width: 1440px;
+    height: 75px;
+    top: 372px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    top: 399px;
+    bottom: 1040px; 
+    padding-left: 149px;
+    padding-top: 27px;
+    letter-spacing: 1px;
+}
+
+div.left h2{
+    position: absolute;
+    left: 147px;
+    right: 69.58%;
+    top: 504px;
+    color: rgb(4, 4, 168);
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    padding-top: 10px;
+    width: 500px;
+    height: 48px;
+}
+div.left p{
+    position: absolute;
+    width: 490px;
+    height: 120px;
+    left: 147px;
+    top: 580px;
+    font-size: 18px;
+}
+div.welcome h2{
+    position: absolute;
+    left: 147px;
+    right: 69.58%;
+    top: 734px;
+    color: rgb(4, 4, 168);
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    padding-top: 10px;
+    width: 500px;
+    height: 48px;
+}
+div.welcome p{
+    position: absolute;
+    width: 490px;
+    height: 120px;
+    left: 130px;
+    top: 810px;
+    font-size: 18px;
+    left: 147px;
+}
+.welcome p, a{
+    color: rgba(0, 51, 149, 1);
+
+}
+
+div.more h2{
+    position: absolute;
+    left: 147px;
+    right: 69.58%;
+    top: 997px;
+    color: rgb(4, 4, 168);
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    padding-top: 10px;
+    width: 500px;
+    height: 48px;
+}
+div.more p{
+    position: absolute;
+    width: 490px;
+    height: 120px;
+    left: 147px;
+    top: 1073px;
+    font-size: 18px;
+}
+div.right {
+    position: absolute;
+    width: 362px;
+    height: 244px;
+    left: 931px;
+    top: 502px;
+    border: 2px solid #33008D;
+    
+}
+div.right h3{
+    width: 290px;
+    height: 32px;
+    left: 950px;
+    right: 166px;
+    top: 521px;
+    bottom: 880px;
+    padding-left: 17px;
+    padding-top: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: #24B0FF;
+    width: 324px;
+    height: 60px;
+    left: 950px;
+    top: 521px;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 33px;
+}
+div.right p{
+    left: 950px;
+    right: 200px;
+    top: 595px;
+    bottom: 741px;
+    font-size: 15px;
+    width: 290px;
+    height: 125px;
+    padding-top: 14px;
+    padding-left: 19px;
+    padding-bottom: 26px;
+}
+
+.links{
+    position: absolute;
+    width: 362px;
+    height: 352.6px;
+    left: 931px;
+    top: 802px;
+    border: 2px solid #33008D;
+}
+.links h3{
+    color: #FFFFFF;
+    width: 290px;
+    height: 37.9px;
+    padding-left: 17px;
+    padding-top: 16.66px;
+    padding-bottom: 10.86px;
+    font-size: 27px;
+    background: #24B0FF;
+    width: 324px;
+    height: 65px;
+    left: 950px;
+    top: 824px;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-top: 33px;
+    
+}
+.links li{
+    left: 690px;
+    right: 211px;
+    top: 911px;
+    bottom: 317px;
+    width: 279px;
+    height: 30px;
+    padding-left: 19px;
+    padding-right: 64px;
+    padding-top: 10px;
+    color: #30233D;
+    list-style-type: none;
+}
+.links li:hover{
+    background: #24B0FF; 
+}
+footer{
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+    position: absolute;
+    width: 1440px;
+    height: 148px;
+    top: 1313px;
+}
+footer p{
+    height: 20px;
+    left: 1095px;
+    right: 147px;
+    top: 1358px;
+    bottom: 82px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    color: #FCFCFC;
+    padding-top: 45px;
+    padding-right: 147px;
+}
